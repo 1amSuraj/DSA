@@ -10,7 +10,6 @@ class Solution {
         result = Math.min(result, nums[n - 1] - nums[3]);
         result = Math.min(result, nums[n - 3] - nums[1]);
         result = Math.min(result, nums[n - 2] - nums[2]);
-
         return result;
     }
 }
