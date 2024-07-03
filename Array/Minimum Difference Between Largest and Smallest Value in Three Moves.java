@@ -2,9 +2,7 @@ class Solution {
     public int minDifference(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
-        if (n <= 4) {
-            return 0;
-        }
+        if (n <= 4) return 0;
         int result = Integer.MAX_VALUE;
         result = Math.min(result, nums[n - 4] - nums[0]);
         result = Math.min(result, nums[n - 1] - nums[3]);
