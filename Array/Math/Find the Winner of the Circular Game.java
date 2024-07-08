@@ -12,7 +12,6 @@ class Solution {
             arr.remove(idx);
             i = idx;
         }
-
         return arr.get(0);
     }
 }
